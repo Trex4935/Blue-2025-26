@@ -28,4 +28,31 @@ public class Drivetrain extends SubsystemBase {
         motor8 = new WPI_TalonSRX(24);
 
     }
+
+    public void stopMotor () {
+        motor1.stopMotor(); 
+        motor2.stopMotor();
+        motor3.stopMotor();
+        motor4.stopMotor();
+        motor5.stopMotor();
+        motor6.stopMotor();
+        motor7.stopMotor();
+        motor8.stopMotor();
+    
+    }
+
+    public void speed () {
+        motor1.setSpeed(0.5);
+        motor2.setSpeed(0.5);
+        motor3.setSpeed(0.5);
+        motor4.setSpeed(0.5);
+        motor5.setSpeed(0.5);
+        motor6.setSpeed(0.5);
+        motor7.setSpeed(0.5);
+        motor8.setSpeed(0.5);
+        
+    }
+
+    public void 
+
 }
